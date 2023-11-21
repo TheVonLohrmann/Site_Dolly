@@ -1,0 +1,107 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alice', sans-serif;
+    background-color: #545e46;
+}
+
+/* Estilos para a barra de navegação (nav) */
+.navigation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #545e46;
+    padding: 10px;
+    z-index: 1000; 
+}
+
+/* Estilos para os ícones de redes sociais */
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+
+/* Estilos para a logo */
+.logo img {
+    max-width: 200px; /* Ajuste o tamanho conforme necessário */
+    display: block;
+    margin-left: 180px; /* Centraliza a logo */
+}
+
+/* Estilos para o menu de navegação */
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #eddec3;
+    font-family: 'Alice', sans-serif;
+    font-size: 30px;
+}
+
+
+/* Estilos para a linha pontilhada */
+.divider {
+    position: fixed;
+    top: 180px; /* Ajuste conforme necessário */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1001;
+}
+
+.dashed-line {
+    border-top: 5px dashed #eddec3;
+    flex: 1;
+}
+
+.space {
+    width: 300px; /* Ajuste o tamanho do espaço conforme necessário */
+}
+
+@media screen and (min-width: 1920px) {
+    /* Ajuste o tamanho dos ícones de redes sociais */
+    .social-icons img {
+        width: 120px;
+        height: 120px;
+    }
+
+    /* Ajuste o tamanho da logo */
+    .logo img {
+        max-width: 200px;
+    }
+
+    /* Ajuste do espaçamento do menu */
+    .menu li {
+        margin-right: 30px;
+    }
+}
+
+
+/* Estilos para as seções */
+section {
+    /* Estilize conforme necessário */
+}
+
+/* Estilos para o rodapé */
+footer {
+    /* Estilize conforme necessário */
+}
