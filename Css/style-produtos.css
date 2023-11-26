@@ -16,7 +16,7 @@ body {
     height: 100vh;
 }
 
-section{
+.corpo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,14 +24,46 @@ section{
     height: 100vh;
 }
 
-section:nth-child(1){ /*referente à primeira página*/
+.corpo:nth-child(1){
     background: #545e46;
-    text-align: center;
     text-decoration: none;
     color: #eddec3;
     font-family: 'Alice', sans-serif;
-    font-size: 65px;
+    font-size: 45px;
 }
+
+.corpo:nth-child(2){
+    background: #545e46;
+    text-decoration: none;
+    color: #eddec3;
+    font-family: 'Alice', sans-serif;
+    font-size: 45px;
+}
+
+.corpo:nth-child(3){
+    background: #545e46;
+    text-decoration: none;
+    color: #eddec3;
+    font-family: 'Alice', sans-serif;
+    font-size: 45px;
+}
+
+.corpo:nth-child(4){
+    background: #545e46;
+    text-decoration: none;
+    color: #eddec3;
+    font-family: 'Alice', sans-serif;
+    font-size: 45px;
+}
+
+.corpo:nth-child(5){
+    background: #545e46;
+    text-decoration: none;
+    color: #eddec3;
+    font-family: 'Alice', sans-serif;
+    font-size: 45px;
+}
+
 
 /* Estilos para a barra de navegação (nav) */
 .navigation-bar {
@@ -61,6 +93,84 @@ section:nth-child(1){ /*referente à primeira página*/
     margin-left: 310px; 
 }
 
+.button{
+    background: transparent;
+    border: transparent;
+    text-decoration: none;
+    color: #eddec3;
+    font-family: 'Alice', sans-serif;
+    font-size: 45px;
+}
+
+/* botão dos tipos de produtos */
+.botao {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.botao-dois {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+  
+.circulo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #eddec3;
+    background-color: #eddec3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.circulo-dois {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #6e1217;
+    background-color: #6e1217;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.issoai{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+  
+.circulo p {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* Faixa vermelha do refri*/
+.meu-retangulo {
+    margin-top: 100px;
+    margin-left: 470px;
+    margin-right: 50px;
+    width: 400px; 
+    height: 750px; 
+    border-radius: 150px; 
+    border: 5px solid #6e1217; 
+    background-color: transparent; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Estilos para o menu de navegação */
 .menu {
     list-style: none;
@@ -82,7 +192,7 @@ section:nth-child(1){ /*referente à primeira página*/
 /* Estilos para a linha pontilhada */
 .divider {
     position: fixed;
-    top: 180px; 
+    top: 190px; 
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -115,53 +225,6 @@ section:nth-child(1){ /*referente à primeira página*/
     font-family: 'Alice', sans-serif;
     font-size: 55px;
 }
-
-form {
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: transparent;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.form-group {
-    margin-bottom: 15px;
-    display: flex;
-    flex-direction: row;
-}
-
-.form-group label {
-    margin-bottom: 5px;
-}
-
-.form-group input[type="text"],
-.form-group textarea {
-    padding: 50px;
-    width: 600px;
-    border-radius: 30px;
-    border: 1px solid #eddec3;
-    background-color: #eddec3;
-    resize: none;
-    max-height: 150px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: #eddec3;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-
-
-
-
 
 @media screen and (min-width: 1920px) {
     /* Ajuste o tamanho dos ícones de redes sociais */
