@@ -74,7 +74,7 @@ section:nth-child(4){ /*referente à terceira página*/
 .social-icons img {
     width: 30px;
     height: 30px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 /* Estilos para a logo */
@@ -84,47 +84,6 @@ section:nth-child(4){ /*referente à terceira página*/
     margin-left: 310px; 
 }
 
-/* botão dos tipos de produtos */
-.botao {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-
-.botao-dois {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-  
-.circulo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid #eddec3;
-    background-color: #eddec3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-}
-
-.circulo-dois {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid #6e1217;
-    background-color: #6e1217;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-}
-  
-.circulo p {
-    margin: 0;
-    font-size: 20px;
-}
 
 /* Faixa vermelha do refri*/
 .meu-retangulo {
@@ -187,6 +146,7 @@ section:nth-child(4){ /*referente à terceira página*/
     width: 300px; 
 }
 
+/* rodape da pagina*/
 .footer{
     text-align: center;
     text-decoration: none;
@@ -198,8 +158,8 @@ section:nth-child(4){ /*referente à terceira página*/
 @media screen and (min-width: 1920px) {
     /* Ajuste o tamanho dos ícones de redes sociais */
     .social-icons img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     /* Ajuste o tamanho da logo */

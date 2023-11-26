@@ -49,9 +49,9 @@ section:nth-child(1){ /*referente à primeira página*/
 
 /* Estilos para os ícones de redes sociais */
 .social-icons img {
-    width: 30px;
-    height: 30px;
-    margin-left: 30px;
+    width: 25px;
+    height: 25px;
+    margin-left: 50px;
 }
 
 /* Estilos para a logo */
@@ -116,6 +116,7 @@ section:nth-child(1){ /*referente à primeira página*/
     font-size: 55px;
 }
 
+/* formulario */
 form {
     max-width: 900px;
     margin: 0 auto;
@@ -166,8 +167,8 @@ button:hover {
 @media screen and (min-width: 1920px) {
     /* Ajuste o tamanho dos ícones de redes sociais */
     .social-icons img {
-        width: 120px;
-        height: 120px;
+        width: 100px;
+        height: 100px;
     }
 
     /* Ajuste o tamanho da logo */
